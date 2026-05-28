@@ -23,7 +23,7 @@ export default function ComingSoonPage() {
         >
           Contact Us
         </a>
-      </header>//
+      </header>/
 
       {/* Main Content */}
       <section className="flex-1 flex items-center justify-center px-6">
