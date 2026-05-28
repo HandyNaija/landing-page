@@ -8,7 +8,7 @@ export default function ComingSoonPage() {
       <header className="w-full px-6 sm:px-10 py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Image
-            src="/logo.png"
+            src="/Logo.png"
             alt="HandyNaija Logo"
             width={150}
             height={60}
@@ -29,7 +29,7 @@ export default function ComingSoonPage() {
       <section className="flex-1 flex items-center justify-center px-6">
         <div className="flex flex-col items-center text-center -mt-16">
           <Image
-            src="/logo.png"
+            src="/Logo.png"
             alt="HandyNaija Logo"
             width={230}
             height={100}
