@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     "HandyNaija is a trusted platform connecting customers with reliable artisans and service providers near them.",
 
   keywords: [
+    "Handy Naija",
     "HandyNaija",
     "artisans in Nigeria",
     "service providers in Nigeria",
