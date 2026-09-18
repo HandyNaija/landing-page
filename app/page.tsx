@@ -10,6 +10,10 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
+      <div className="fixed left-0 top-0 z-[9999] bg-red-600 px-4 py-2 text-white">
+        DEPLOY TEST — SEPTEMBER 18
+      </div>
+
       <Header />
       <main>
         <HeroSection />
