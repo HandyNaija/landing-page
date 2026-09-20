@@ -1,23 +1,7 @@
 import type { Metadata } from "next";
-import { Syne, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const siteUrl = "https://myhandynaija.com";
-
-const syne = Syne({
-  variable: "--font-syne",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -31,6 +15,7 @@ export const metadata: Metadata = {
     "HandyNaija is a trusted platform connecting customers with reliable artisans and service providers near them.",
 
   keywords: [
+    "Handy Naija",
     "HandyNaija",
     "artisans in Nigeria",
     "service providers in Nigeria",
@@ -82,7 +67,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${syne.variable} ${geistMono.variable} ${montserrat.variable} h-full antialiased`}
+      className="h-full antialiased"
+      style={
+        {
+          "--font-syne": "Syne, Arial, sans-serif",
+          "--font-geist-mono":
+            "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+          "--font-montserrat": "Montserrat, Arial, sans-serif",
+        } as React.CSSProperties
+      }
     >
       <body className="min-h-full flex flex-col bg-[#F8F7EF]">
         {children}
